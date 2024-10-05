@@ -16,7 +16,7 @@ export type Errors = [boolean, boolean, boolean];
 export const datas: QuestionAnswers[] = [
   {
     id: 1,
-    question: 'Quel est le talent caché de Pierre-Yves ?',
+    question: 'Qu\'est-ce qu\'une bonne soirée pour les Cricris ?',
     answers: [
       {
         answer: 'Musique',
@@ -47,7 +47,7 @@ export const datas: QuestionAnswers[] = [
   },
   {
     id: 2,
-    question: 'Quel est l\'objet dont Céline possède le plus d\'exemplaires  ?',
+    question: 'Un mot pour décrire les vacances idéales de Christine  ?',
     answers: [
       {
         answer: 'Calendriers de l\'avent',
@@ -82,7 +82,7 @@ export const datas: QuestionAnswers[] = [
   },
   {
     id: 3,
-    question: 'Quelle est la qualité préférée de Céline chez Pierre-Yves ?',
+    question: 'Un mot pour décrire les vacances idéales de Christian ?',
     answers: [
       {
         answer: 'calme / patience',
@@ -114,7 +114,7 @@ export const datas: QuestionAnswers[] = [
   },
   {
     id: 4,
-    question: 'Quelle est la qualité préférée de Pierre-Yves chez Céline ?',
+    question: 'Qu\'est-ce qui définit le mieux le caractère de Christine ?',
     answers: [
       {
         answer: 'Patience / Bienveillance / Douceur / Gentillesse',
@@ -147,7 +147,7 @@ export const datas: QuestionAnswers[] = [
   },
   {
     id: 5,
-    question: 'Qu\'est-ce que Pierre-Yves reproche le plus souvent à Céline ?',
+    question: 'Qu\'est-ce qui définit le mieux le caractère de Christian ?',
     answers: [
       {
         answer: 'De tout garder',
@@ -180,7 +180,7 @@ export const datas: QuestionAnswers[] = [
   },
   {
     id: 6,
-    question: 'Qu\'est-ce que Céline reproche le plus souvent à Pierre-Yves ?',
+    question: 'Si Christine était un animal, lequel serait-elle ?',
     answers: [
       {
         answer: 'Oublis / Manque d\'attention',
@@ -213,7 +213,7 @@ export const datas: QuestionAnswers[] = [
   },
   {
     id: 7,
-    question: 'Si Céline était une émission de télévision, laquelle serait-elle ?',
+    question: 'Si Christian était un animal, lequel serait-il ?',
     answers: [
       {
         answer: 'Emission de sport',
@@ -244,7 +244,7 @@ export const datas: QuestionAnswers[] = [
   },
   {
     id: 8,
-    question: 'Si Pierre-Yves était un film, lequel serait-il ?',
+    question: 'Quelle est la 1e chose que Christine met dans sa valise, avant de partir en vacances ?',
     answers: [
       {
         answer: 'Comédie',
@@ -253,18 +253,438 @@ export const datas: QuestionAnswers[] = [
       {
         answer: 'Aventure Fantasy',
         percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 9
+  },
+  {
+    id: 9,
+    question: 'Quelle est la 1e chose que Christian met dans sa valise, avant de partir en vacances ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
       },
       {
-        answer: 'Science-fiction',
-        percentage: 19
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 10
+  },
+  {
+    id: 10,
+    question: 'Si Christine était un plat, lequel serait-elle ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
       },
       {
-        answer: 'Thriller',
-        percentage: 11
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 11
+  },
+  {
+    id: 11,
+    question: 'Si Christian était un plat, lequel serait-il ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
       },
       {
-        answer: 'Comédie dramatique',
-        percentage: 8
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 12
+  },
+  {
+    id: 12,
+    question: 'Quelle est la prochaine destination de vacances à l\'étranger des Cricris ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 13
+  },
+  {
+    id: 13,
+    question: 'Où a-t-on le plus de chance de rencontrer les Cricris ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 14
+  },
+  {
+    id: 14,
+    question: 'Que préfère Christine chez Christian ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 15
+  },
+  {
+    id: 15,
+    question: 'Que préfère Christian chez Christine ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 16
+  },
+  {
+    id: 16,
+    question: 'Depuis combien de temps les Cricris sont-ils réellement mariés ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 17
+  },
+  {
+    id: 17,
+    question: 'Si Christine était un personnage de dessin animé ou de BD, lequel serait-elle ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 18
+  },
+  {
+    id: 18,
+    question: 'Si Christian était un personnage de dessin animé ou de BD, lequel serait-il ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 19
+  },
+  {
+    id: 19,
+    question: 'Quelle chanson ressemble le plus à Christine ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 20
+  },
+  {
+    id: 20,
+    question: 'Quelle chanson ressemble le plus à Christian ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 21
+  },
+  {
+    id: 21,
+    question: 'Que reproche le plus Christine à Christian ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 22
+  },
+  {
+    id: 22,
+    question: 'Que reproche le plus Christian à Christine ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 23
+  },
+  {
+    id: 23,
+    question: 'Quel mot décrit le mieux les Cricris ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 24
+  },
+  {
+    id: 24,
+    question: 'Quelle est l\'activité qu\'ils préfèrent faire à 2 ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 25
+  },
+  {
+    id: 25,
+    question: 'Où les Cricris devaient-ils faire leur voyage de noce, initialement ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 26
+  },
+  {
+    id: 26,
+    question: 'Si Christine pouvait choisir un super pouvoir, lequel serait-ce ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 27
+  },
+  {
+    id: 27,
+    question: 'Si Christian pouvait choisir un super pouvoir, lequel serait-ce ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 28
+  },
+  {
+    id: 28,
+    question: 'Selon-vous, combien de temps Christine peut-elle survivre sans bouger sur un canapé ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 29
+  },
+  {
+    id: 29,
+    question: 'Selon vous, combien de temps Christian peut-il survivre sans ordinateur ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 30
+  },
+  {
+    id: 30,
+    question: 'Qu\'aime faire Christine le dimanche matin ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 31
+  },
+  {
+    id: 31,
+    question: 'Qu\'aime faire Christian le dimanche matin ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
+      }
+    ],
+    alternativeAnswers: [
+      'Aventure dramatique'
+    ],
+    nextQuestion: 32
+  },
+  {
+    id: 32,
+    question: 'Un mot ou une phrase qui vous rappelle une anecdote avec les Cricris ?',
+    answers: [
+      {
+        answer: 'Comédie',
+        percentage: 40
+      },
+      {
+        answer: 'Aventure Fantasy',
+        percentage: 22
       }
     ],
     alternativeAnswers: [
