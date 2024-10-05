@@ -27,27 +27,4 @@
       flex: 1;
     }
   }
-
-  #image-presentation-left, #image-presentation-right  {
-    display: flex;
-    mix-blend-mode: multiply;
-    width: 200px;
-    height: 400px;
-
-    & > img {
-      width: 800px;
-      height: 400px;
-      margin: auto;
-    }
-  }
-
-  #image-presentation-left img {
-    clip-path: polygon(0 0, 50% 0, 51% 26%, 56% 29%, 30% 100%, 0 100%);
-    margin: 0 0 0 -10%;
-  }
-
-  #image-presentation-right img {
-    clip-path: polygon(54% 0, 51% 28%, 56% 28%, 50% 100%, 50% 100%, 100% 100%, 100% 0);
-    margin: 0 0 0 -82%;
-  }
 }
