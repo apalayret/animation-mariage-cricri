@@ -1,0 +1,40 @@
+@import "font";
+
+:host {
+  display: flex;
+  flex-direction: column;
+  font-family: YAFdJhX-538-0;
+
+  #home-button {
+    cursor: pointer;
+    position: absolute;
+    margin: 6px;
+    z-index: 1;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  h1 {
+    margin: auto auto 5vh;
+  }
+
+  #app-page {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    background-color:var(--bg-color-main);
+  }
+
+  #app-content {
+    display:flex;
+    flex-grow:1;
+  }
+
+  #app-footer {
+    width: 100vw;
+    min-height: 1px;
+  }
+}

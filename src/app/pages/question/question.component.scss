@@ -1,0 +1,154 @@
+:host {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  h3 {
+    margin: 20px auto;
+    color: var(--text-primary-color);
+    font-size: 3rem;
+    font-family: YAEw2GhSLyw-0;
+  }
+
+  app-answer {
+    z-index: 1;
+  }
+
+  #alternative-answer {
+    min-height: 60px;
+    width: 75%;
+    margin: 15px auto;
+    padding: 20px 0;
+    color: var(--text-primary-color);
+    box-shadow: inset -2px 0 0 var(--text-primary-color), inset 0 -2px 0 var(--text-primary-color), inset 2px 0 0 var(--text-primary-color), inset 0 2px 0 var(--text-primary-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      z-index: 1;
+    }
+  }
+
+  #curlicue-1-1 {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    clip-path: polygon(20% 100%, 20% 20%, 70% 20%, 70% 100%);
+  }
+
+  #curlicue-1-2 {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+  }
+
+  #curlicue-2-1 {
+    position: absolute;
+    top: 75px;
+    right: 5px;
+  }
+
+  #curlicue-2-2 {
+    position: absolute;
+    bottom: calc(50% - 104px);
+    left: 15px;
+  }
+
+  #curlicue-3-1 {
+    position: absolute;
+    top: calc(50% - 135px);
+    right: 5px;
+  }
+
+  #curlicue-3-2 {
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+  }
+
+  #curlicue-4-1 {
+    position: absolute;
+    bottom: 75px;
+    right: 25px;
+  }
+
+  #curlicue-4-2 {
+    position: absolute;
+    top: calc(50% - 172px);
+    left: 5px;
+  }
+
+  #curlicue-5-1 {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+  }
+
+  #curlicue-5-2 {
+    position: absolute;
+    top: calc(50% - 121px);
+    right: 5px;
+  }
+
+  #curlicue-6-1 {
+    position: absolute;
+    bottom: 65px;
+    left: 20px;
+  }
+
+  #curlicue-6-2 {
+    position: absolute;
+    top: calc(50% - 150px);
+    right: 5px;
+  }
+
+  #curlicue-7-1 {
+    position: absolute;
+    top: calc(50% - 133px);
+    left: -20px;
+  }
+
+  #curlicue-7-2 {
+    position: absolute;
+    bottom: 75px;
+    right: 25px;
+  }
+
+  #curlicue-8-1 {
+    position: absolute;
+    top: 75px;
+    right: 0;
+  }
+
+  #curlicue-8-2 {
+    position: absolute;
+    bottom: 75px;
+    left: 25px;
+  }
+
+  .curlicue {
+    opacity: 0;
+  }
+  .fade-in {
+    //opacity: 1;
+    //animation: fadeIn 2s;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear;
+  }
+  .hide {
+    //opacity: 0;
+    //animation: fadeOut 2s;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
+
+}

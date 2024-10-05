@@ -1,0 +1,11 @@
+<div id="app-page" class="wedding-theme">
+  <div [routerLink]="['/welcome']" id="home-button">
+    <img ngSrc="/assets/images/home.jpg" width="970" height="970" alt="logo home" />
+  </div>
+  <div id="app-content">
+    <router-outlet></router-outlet>
+  </div>
+  <div id="app-footer">
+    <router-outlet name="footer"></router-outlet>
+  </div>
+</div>

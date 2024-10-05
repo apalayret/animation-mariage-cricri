@@ -1,0 +1,64 @@
+<div [ngClass]="getClassCurlicue(10, 1)" id="curlicue-1-1">
+  <img [ngSrc]="'/assets/images/Question%201.1.png'" width="300" height="400"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 1)" id="curlicue-1-2">
+  <img [ngSrc]="'/assets/images/Question%201.2.png'" width="120" height="160"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 2)" id="curlicue-2-1">
+  <img [ngSrc]="'/assets/images/Question%202.1.png'" width="150" height="200"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 2)" id="curlicue-2-2">
+  <img [ngSrc]="'/assets/images/Question%202.2.png'" width="150" height="200"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 3)" id="curlicue-3-1">
+  <img [ngSrc]="'/assets/images/Question%203.1.png'" width="200" height="269"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 3)" id="curlicue-3-2">
+  <img [ngSrc]="'/assets/images/Question%203.2.png'" width="200" height="183"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 4)" id="curlicue-4-1">
+  <img [ngSrc]="'/assets/images/Question%204.1.png'" width="200" height="234"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 4)" id="curlicue-4-2">
+  <img [ngSrc]="'/assets/images/Question%204.2.png'" width="200" height="344"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 5)" id="curlicue-5-1">
+  <img [ngSrc]="'/assets/images/Question%205.1.png'" width="117" height="300"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 5)" id="curlicue-5-2">
+  <img [ngSrc]="'/assets/images/Question%205.2.png'" width="200" height="234"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 6)" id="curlicue-6-1">
+  <img [ngSrc]="'/assets/images/Question%206.1.png'" width="200" height="186"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 6)" id="curlicue-6-2">
+  <img [ngSrc]="'/assets/images/Question%206.2.png'" width="174" height="300"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 7)" id="curlicue-7-1">
+  <img [ngSrc]="'/assets/images/Question%207.1.png'" width="200" height="267"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 7)" id="curlicue-7-2">
+  <img [ngSrc]="'/assets/images/Question%207.2.png'" width="149" height="250"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 8)" id="curlicue-8-1">
+  <img [ngSrc]="'/assets/images/Question%208.1.png'" width="200" height="267"/>
+</div>
+<div [ngClass]="getClassCurlicue(10, 8)" id="curlicue-8-2">
+  <img [ngSrc]="'/assets/images/Question%208.2.png'" width="200" height="267"/>
+</div>
+
+@if (question) {
+  <h3>{{question.question}}</h3>
+  @for (answer of question.answers; track answer; let index = $index) {
+    <app-answer [answer]="answer" [number]="index + 1" [isAnswerShown]="isAnswerShown[index]" [isAnswerCorrect]="isAnswerCorrect[index]" (answerSelected)="showAnswer(index)"></app-answer>
+  }
+  @if (question.alternativeAnswers && isAnswerShown[question.answers.length]) {
+    <div id="alternative-answer">
+      <h4>Réponses alternatives</h4>
+      @if (isAnswerShown) {
+        {{question.alternativeAnswers.join(', ')}}
+      }
+    </div>
+  }
+}
+
