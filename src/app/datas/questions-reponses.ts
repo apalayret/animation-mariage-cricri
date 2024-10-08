@@ -455,7 +455,7 @@ export const datas: QuestionAnswers[] = [
         percentage: 16
       },
       {
-        answer: 'Une bestiole jaune et survoltée (minion, Marsupilami...)',
+        answer: 'Une bestiole jaune et survoltée (minion, marsupilami...)',
         percentage: 15
       },
       {
