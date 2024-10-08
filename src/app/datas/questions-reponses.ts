@@ -258,7 +258,7 @@ export const datas: QuestionAnswers[] = [
       }
     ],
     alternativeAnswers: [
-      'Pyjama qui couvre le bidon, gourde, téléphone'
+      'Pyjama qui couvre le bidon'
     ],
     nextQuestion: 11
   },
