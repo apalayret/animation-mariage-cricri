@@ -107,7 +107,7 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Avec les amis, sans sable, guitare, avec Christine...'
     ],
-    nextQuestion: 4
+    nextQuestion: 6
   },
   {
     id: 4,
@@ -180,33 +180,26 @@ export const datas: QuestionAnswers[] = [
     question: 'Si Christine était un animal, lequel serait-elle ?',
     answers: [
       {
-        answer: 'Oublis / Manque d\'attention',
-        percentage: 34
-      },
-      {
-        answer: 'Maladresses / boulettes',
+        answer: 'Singe',
         percentage: 25
       },
       {
-        answer: 'Tâches ménagères (notamment laisser traîner ses chaussettes)',
-        percentage: 23
+        answer: 'Animal sauteur (marsupilami, kangourou, sauterelle, puce...',
+        percentage: 25
       },
       {
-        answer: 'Rien (il paraît qu\'il est parfait)',
-        percentage: 11
+        answer: 'Chien, louve',
+        percentage: 25
       },
       {
-        answer: 'Râler',
-        percentage: 7
+        answer: 'Animal volant (oiseau, coccinelle...)',
+        percentage: 10
       }
     ],
     alternativeAnswers: [
-      'Ne pas savoir tenir un secret',
-      'Pas assez combatif',
-      'Ne pas la comprendre',
-      ' Tout'
+      'Gazelle, panthère, écureuil'
     ],
-    nextQuestion: 7
+    nextQuestion: 8
   },
   {
     id: 7,
@@ -244,18 +237,30 @@ export const datas: QuestionAnswers[] = [
     question: 'Quelle est la 1e chose que Christine met dans sa valise, avant de partir en vacances ?',
     answers: [
       {
-        answer: 'Comédie',
-        percentage: 40
+        answer: 'Affaires de sport',
+        percentage: 45
       },
       {
-        answer: 'Aventure Fantasy',
-        percentage: 22
+        answer: 'Sex toy, jeux',
+        percentage: 15
+      },
+      {
+        answer: 'De quoi tenir le coup (alcool, produits dopants, nourriture...)',
+        percentage: 13
+      },
+      {
+        answer: 'Le programme des vacances, guide du routard...',
+        percentage: 9
+      },
+      {
+        answer: 'Rien (trop en retard)',
+        percentage: 4
       }
     ],
     alternativeAnswers: [
-      'Aventure dramatique'
+      'Pyjama qui couvre le bidon, gourde, téléphone'
     ],
-    nextQuestion: 9
+    nextQuestion: 11
   },
   {
     id: 9,
@@ -298,18 +303,30 @@ export const datas: QuestionAnswers[] = [
     question: 'Si Christian était un plat, lequel serait-il ?',
     answers: [
       {
-        answer: 'Comédie',
-        percentage: 40
+        answer: 'Plat régional (gâteau nantais, choucroûte...)',
+        percentage: 35
       },
       {
-        answer: 'Aventure Fantasy',
-        percentage: 22
+        answer: 'Lapin au whisky',
+        percentage: 20
+      },
+      {
+        answer: 'Lasagnes',
+        percentage: 12
+      },
+      {
+        answer: 'Un bon dessert',
+        percentage: 11
+      },
+      {
+        answer: 'Pas du fromage ! (sauf la raclette)',
+        percentage: 10
       }
     ],
     alternativeAnswers: [
-      'Aventure dramatique'
+      'Tous car il cuisine très bien !, une bonne tartine de beurre'
     ],
-    nextQuestion: 12
+    nextQuestion: 14
   },
   {
     id: 12,
@@ -352,16 +369,28 @@ export const datas: QuestionAnswers[] = [
     question: 'Que préfère Christine chez Christian ?',
     answers: [
       {
-        answer: 'Comédie',
-        percentage: 40
+        answer: 'Son calme, sa patience, sa retenue',
+        percentage: 26
       },
       {
-        answer: 'Aventure Fantasy',
-        percentage: 22
+        answer: 'Le kiki de Cricri',
+        percentage: 15
+      },
+      {
+        answer: 'Sa cuisine',
+        percentage: 15
+      },
+      {
+        answer: 'Sa sagesse, sa douceur, son réconfort',
+        percentage: 11
+      },
+      {
+        answer: 'Lui tout entier',
+        percentage: 5
       }
     ],
     alternativeAnswers: [
-      'Aventure dramatique'
+      'Ce qu\'elle n\'a pas, qu\'il la supporte, son amour...'
     ],
     nextQuestion: 15
   },
@@ -370,18 +399,30 @@ export const datas: QuestionAnswers[] = [
     question: 'Que préfère Christian chez Christine ?',
     answers: [
       {
-        answer: 'Comédie',
-        percentage: 40
+        answer: 'Son énergie',
+        percentage: 41
       },
       {
-        answer: 'Aventure Fantasy',
-        percentage: 22
+        answer: 'Les tétines à Christine',
+        percentage: 16
+      },
+      {
+        answer: 'Sa folie, ses gaffes',
+        percentage: 10
+      },
+      {
+        answer: 'Elle toute entière',
+        percentage: 8
+      },
+      {
+        answer: 'Quand elle ne colle pas ses pieds froids contre lui',
+        percentage: 5
       }
     ],
     alternativeAnswers: [
-      'Aventure dramatique'
+      'Ce qu\'il n\'a pas, son amour, son absence de la maison (pour être un peu tranquille)'
     ],
-    nextQuestion: 16
+    nextQuestion: 17
   },
   {
     id: 16,
@@ -406,18 +447,30 @@ export const datas: QuestionAnswers[] = [
     question: 'Si Christine était un personnage de dessin animé ou de BD, lequel serait-elle ?',
     answers: [
       {
-        answer: 'Comédie',
-        percentage: 40
+        answer: 'Dora l\'exploratrice',
+        percentage: 22
       },
       {
-        answer: 'Aventure Fantasy',
-        percentage: 22
+        answer: 'Bécassine',
+        percentage: 16
+      },
+      {
+        answer: 'Une bestiole jaune et survoltée (minion, Marsupilami...)',
+        percentage: 15
+      },
+      {
+        answer: 'Gaston Lagaffe',
+        percentage: 11
+      },
+      {
+        answer: 'Une super-héroïne (Ladybug, Catwoman...)',
+        percentage: 10
       }
     ],
     alternativeAnswers: [
-      'Aventure dramatique'
+      'Betty Boop, Martine, Speedy Gonzales...'
     ],
-    nextQuestion: 18
+    nextQuestion: 24
   },
   {
     id: 18,
@@ -532,18 +585,30 @@ export const datas: QuestionAnswers[] = [
     question: 'Quelle est l\'activité qu\'ils préfèrent faire à 2 ?',
     answers: [
       {
-        answer: 'Comédie',
-        percentage: 40
+        answer: 'Ceci ne nous regarde pas',
+        percentage: 30
       },
       {
-        answer: 'Aventure Fantasy',
-        percentage: 22
+        answer: 'Du vélo',
+        percentage: 25
+      },
+      {
+        answer: 'Des jeux, danser, sortir',
+        percentage: 20
+      },
+      {
+        answer: 'Des travaux',
+        percentage: 10
+      },
+      {
+        answer: 'Vivre ensemble, tout simplement !',
+        percentage: 5
       }
     ],
     alternativeAnswers: [
-      'Aventure dramatique'
+      'Voyager, faire des projets'
     ],
-    nextQuestion: 25
+    nextQuestion: 27
   },
   {
     id: 25,
@@ -586,18 +651,29 @@ export const datas: QuestionAnswers[] = [
     question: 'Si Christian pouvait choisir un super pouvoir, lequel serait-ce ?',
     answers: [
       {
-        answer: 'Comédie',
-        percentage: 40
+        answer: 'Être Superman, voler',
+        percentage: 26
       },
       {
-        answer: 'Aventure Fantasy',
-        percentage: 22
+        answer: 'Transformer Christine en Serena Williams',
+        percentage: 21
+      },
+      {
+        answer: 'Ralentir le temps, procrastiner',
+        percentage: 12
+      },
+      {
+        answer: 'Être dans le top 10 au golf',
+        percentage: 11
+      },
+      {
+        answer: 'Être pilote de ligne',
+        percentage: 10
       }
     ],
     alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-    nextQuestion: 28
+      'Intégrer un jeu de société, se téléporter, devenir invisible...'
+    ]
   },
   {
     id: 28,
