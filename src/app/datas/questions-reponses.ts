@@ -651,7 +651,7 @@ export const datas: QuestionAnswers[] = [
     question: 'Si Christian pouvait choisir un super pouvoir, lequel serait-ce ?',
     answers: [
       {
-        answer: 'Être Superman, voler',
+        answer: 'Être Superman (voler, super-force)',
         percentage: 26
       },
       {
