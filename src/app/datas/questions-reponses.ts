@@ -374,7 +374,7 @@ export const datas: QuestionAnswers[] = [
       },
       {
         answer: 'Le kiki de Cricri',
-        percentage: 15
+        percentage: 16
       },
       {
         answer: 'Sa cuisine',
