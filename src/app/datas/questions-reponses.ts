@@ -181,11 +181,11 @@ export const datas: QuestionAnswers[] = [
     answers: [
       {
         answer: 'Singe',
-        percentage: 25
+        percentage: 27
       },
       {
         answer: 'Animal sauteur (marsupilami, kangourou, sauterelle, puce...',
-        percentage: 25
+        percentage: 26
       },
       {
         answer: 'Chien, louve',
