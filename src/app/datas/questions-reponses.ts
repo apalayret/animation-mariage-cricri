@@ -19,29 +19,29 @@ export const datas: QuestionAnswers[] = [
     question: 'Qu\'est-ce qu\'une bonne soirée pour les Cricris ?',
     answers: [
       {
-        answer: 'Musique',
-        percentage: 42
+        answer: 'Des amis',
+        percentage: 22
       },
       {
-        answer: 'Sports extrêmes (plongeon et ski essentiellement)',
-        percentage: 21
+        answer: 'À boire',
+        percentage: 20
       },
       {
-        answer: 'Photobooth',
-        percentage: 17
+        answer: 'À manger',
+        percentage: 16
       },
       {
-        answer: 'Cuisine',
-        percentage: 12
+        answer: 'Jouer',
+        percentage: 15
       },
       {
-        answer: 'Danse',
-        percentage: 8
+        answer: 'Du sport',
+        percentage: 9
       }
     ],
     alternativeAnswers: [
-      'Eleveur de cafards',
-      'Capacité à se lancer malgré la peur'
+      'Danser, de la musique',
+      'Discuter'
     ],
     nextQuestion: 2
   },
