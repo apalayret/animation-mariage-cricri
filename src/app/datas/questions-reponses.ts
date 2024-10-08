@@ -40,10 +40,9 @@ export const datas: QuestionAnswers[] = [
       }
     ],
     alternativeAnswers: [
-      'Danser, de la musique',
-      'Discuter'
+      'Danser, de la musique, discuter'
     ],
-    nextQuestion: 2
+    nextQuestion: 3
   },
   {
     id: 2,
@@ -85,30 +84,28 @@ export const datas: QuestionAnswers[] = [
     question: 'Un mot pour décrire les vacances idéales de Christian ?',
     answers: [
       {
-        answer: 'calme / patience',
-        percentage: 47
+        answer: 'Tranquilles',
+        percentage: 26
       },
       {
-        answer: 'Gentillesse / Prévenance / Ecoute',
-        percentage: 25
+        answer: 'Sportives (vélo, baignade, danse...)',
+        percentage: 14
       },
       {
-        answer: 'Organisation',
-        percentage: 13
+        answer: 'Bricoleuses',
+        percentage: 12
       },
       {
-        answer: 'Perfection / Génialitude',
-        percentage: 9
+        answer: 'Alcoolisées',
+        percentage: 11
       },
       {
-        answer: 'Talent de cuisinier',
-        percentage: 6
+        answer: 'Reposantes',
+        percentage: 5
       }
     ],
     alternativeAnswers: [
-      'Sa culture',
-      'Son éducation',
-      'Son humour'
+      'Avec les amis, sans sable, guitare, avec Christine...'
     ],
     nextQuestion: 4
   },
