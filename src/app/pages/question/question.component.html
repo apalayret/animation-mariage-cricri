@@ -36,7 +36,7 @@
 </div>
 
 @if (question) {
-  <h3>{{question.question}}</h3>
+  <h3 [innerText]="question.question"></h3>
   @for (answer of question.answers; track answer; let index = $index) {
     <app-answer [answer]="answer" [number]="index + 1" [isAnswerShown]="isAnswerShown[index]" [isAnswerCorrect]="isAnswerCorrect[index]" (answerSelected)="showAnswer(index)"></app-answer>
   }
