@@ -76,8 +76,7 @@ export const datas: QuestionAnswers[] = [
       'Bouteilles Pierre Fabre',
       'Jouets Kinder',
       'Stylos'
-    ],
-    nextQuestion: 3
+    ]
   },
   {
     id: 3,
@@ -139,8 +138,6 @@ export const datas: QuestionAnswers[] = [
       'Dynamisme',
       'Tout'
     ],
-    nextQuestion: 5
-
   },
   {
     id: 5,
@@ -173,7 +170,6 @@ export const datas: QuestionAnswers[] = [
       'D\'aimer la routine',
       'De ramener trop de produits Pierre Fabre'
     ],
-    nextQuestion: 6
   },
   {
     id: 6,
@@ -230,7 +226,6 @@ export const datas: QuestionAnswers[] = [
       'Emission de chinage',
       'Tintin'
     ],
-    nextQuestion: 8
   },
   {
     id: 8,
@@ -296,7 +291,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 11
   },
   {
     id: 11,
@@ -362,7 +356,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 14
   },
   {
     id: 14,
@@ -440,7 +433,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 17
   },
   {
     id: 17,
@@ -488,7 +480,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 19
   },
   {
     id: 19,
@@ -506,7 +497,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 20
   },
   {
     id: 20,
@@ -524,7 +514,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 21
   },
   {
     id: 21,
@@ -542,7 +531,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 22
   },
   {
     id: 22,
@@ -560,7 +548,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 23
   },
   {
     id: 23,
@@ -578,7 +565,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 24
   },
   {
     id: 24,
@@ -625,7 +611,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 26
   },
   {
     id: 26,
@@ -643,7 +628,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 27
   },
   {
     id: 27,
@@ -691,7 +675,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 29
   },
   {
     id: 29,
@@ -709,7 +692,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 30
   },
   {
     id: 30,
@@ -727,7 +709,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 31
   },
   {
     id: 31,
@@ -745,7 +726,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 32
   },
   {
     id: 32,
