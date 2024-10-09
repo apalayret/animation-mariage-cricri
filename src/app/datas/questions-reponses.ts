@@ -303,7 +303,7 @@ export const datas: QuestionAnswers[] = [
     question: 'Si Christian était un plat, lequel serait-il ?',
     answers: [
       {
-        answer: 'Plat régional (gâteau nantais, choucroûte...)',
+        answer: 'Plat régional (gâteau nantais, choucroute...)',
         percentage: 35
       },
       {
@@ -659,7 +659,7 @@ export const datas: QuestionAnswers[] = [
         percentage: 21
       },
       {
-        answer: 'Ralentir le temps, procrastiner',
+        answer: 'Ralentir le temps, procrastiner à volonté',
         percentage: 12
       },
       {
