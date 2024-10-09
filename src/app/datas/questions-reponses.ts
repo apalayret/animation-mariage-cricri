@@ -234,7 +234,7 @@ export const datas: QuestionAnswers[] = [
   },
   {
     id: 8,
-    question: 'Quelle est la 1e chose que Christine met dans sa valise,\n avant de partir en vacances ?',
+    question: 'Quelle est la 1e chose que Christine met dans sa valise,\\n avant de partir en vacances ?',
     answers: [
       {
         answer: 'Affaires de sport',
@@ -444,7 +444,7 @@ export const datas: QuestionAnswers[] = [
   },
   {
     id: 17,
-    question: 'Si Christine était un personnage de dessin animé ou de BD,\n lequel serait-elle ?',
+    question: 'Si Christine était un personnage de dessin animé ou de BD,\\\n lequel serait-elle ?',
     answers: [
       {
         answer: 'Dora l\'exploratrice',
