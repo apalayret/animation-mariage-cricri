@@ -45,40 +45,6 @@ export const datas: QuestionAnswers[] = [
     nextQuestion: 3
   },
   {
-    id: 2,
-    question: 'Un mot pour décrire les vacances idéales de Christine  ?',
-    answers: [
-      {
-        answer: 'Calendriers de l\'avent',
-        percentage: 56
-      },
-      {
-        answer: 'Chaussures',
-        percentage: 18
-      },
-      {
-        answer: 'Peluches',
-        percentage: 15
-      },
-      {
-        answer: 'Tasses',
-        percentage: 7
-      },
-      {
-        answer: 'Cailloux / coquillages',
-        percentage: 4
-      }
-    ],
-    alternativeAnswers: [
-      'Jouets pour adultes',
-      'Poches',
-      'Culottes',
-      'Bouteilles Pierre Fabre',
-      'Jouets Kinder',
-      'Stylos'
-    ]
-  },
-  {
     id: 3,
     question: 'Un mot pour décrire les vacances idéales de Christian ?',
     answers: [
@@ -109,69 +75,6 @@ export const datas: QuestionAnswers[] = [
     nextQuestion: 6
   },
   {
-    id: 4,
-    question: 'Qu\'est-ce qui définit le mieux le caractère de Christine ?',
-    answers: [
-      {
-        answer: 'Patience / Bienveillance / Douceur / Gentillesse',
-        percentage: 39
-      },
-      {
-        answer: 'Son caractère',
-        percentage: 29
-      },
-      {
-        answer: 'Ténacité / Résilience',
-        percentage: 16
-      },
-      {
-        answer: 'Ses collections',
-        percentage: 11
-      },
-      {
-        answer: 'Joueuse / Clown',
-        percentage: 5
-      }
-    ],
-    alternativeAnswers: [
-      'Talent de cuisinière',
-      'Dynamisme',
-      'Tout'
-    ],
-  },
-  {
-    id: 5,
-    question: 'Qu\'est-ce qui définit le mieux le caractère de Christian ?',
-    answers: [
-      {
-        answer: 'De tout garder',
-        percentage: 46
-      },
-      {
-        answer: 'Rien',
-        percentage: 24
-      },
-      {
-        answer: 'De toujours vouloir avoir raison',
-        percentage: 15
-      },
-      {
-        answer: 'De se moquer de lui',
-        percentage: 9
-      },
-      {
-        answer: 'De chanter faux sous la douche',
-        percentage: 6
-      }
-    ],
-    alternativeAnswers: [
-      'Son indécision',
-      'De ne pas se poser',
-      'D\'aimer la routine',
-      'De ramener trop de produits Pierre Fabre'
-    ],
-  },
-  {
     id: 6,
     question: 'Si Christine était un animal, lequel serait-elle ?',
     answers: [
@@ -196,36 +99,6 @@ export const datas: QuestionAnswers[] = [
       'Gazelle, panthère, écureuil'
     ],
     nextQuestion: 11
-  },
-  {
-    id: 7,
-    question: 'Si Christian était un animal, lequel serait-il ?',
-    answers: [
-      {
-        answer: 'Emission de sport',
-        percentage: 31
-      },
-      {
-        answer: 'Jeu télévisé',
-        percentage: 23
-      },
-      {
-        answer: 'Jeux d\'aventure',
-        percentage: 21
-      },
-      {
-        answer: 'Téléréalité romantique',
-        percentage: 15
-      },
-      {
-        answer: 'Emission de construction / bricolage',
-        percentage: 10
-      }
-    ],
-    alternativeAnswers: [
-      'Emission de chinage',
-      'Tintin'
-    ],
   },
   {
     id: 8,
@@ -258,40 +131,6 @@ export const datas: QuestionAnswers[] = [
     nextQuestion: 14
   },
   {
-    id: 9,
-    question: 'Quelle est la 1e chose que Christian met dans sa valise, avant de partir en vacances ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 10,
-    question: 'Si Christine était un plat, lequel serait-elle ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
     id: 11,
     question: 'Si Christian était un plat, lequel serait-il ?',
     answers: [
@@ -320,40 +159,6 @@ export const datas: QuestionAnswers[] = [
       'Tous car il cuisine très bien !, une bonne tartine de beurre'
     ],
     nextQuestion: 8
-  },
-  {
-    id: 12,
-    question: 'Quelle est la prochaine destination de vacances à l\'étranger des Cricris ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 13,
-    question: 'Où a-t-on le plus de chance de rencontrer les Cricris ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
   },
   {
     id: 14,
@@ -416,23 +221,6 @@ export const datas: QuestionAnswers[] = [
     nextQuestion: 17
   },
   {
-    id: 16,
-    question: 'Depuis combien de temps les Cricris sont-ils réellement mariés ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
     id: 17,
     question: 'Si Christine était un personnage de dessin animé ou de BD,\nlequel serait-elle ?',
     answers: [
@@ -461,108 +249,6 @@ export const datas: QuestionAnswers[] = [
       'Betty Boop, Martine, Speedy Gonzales...'
     ],
     nextQuestion: 27
-  },
-  {
-    id: 18,
-    question: 'Si Christian était un personnage de dessin animé ou de BD, lequel serait-il ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 19,
-    question: 'Quelle chanson ressemble le plus à Christine ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 20,
-    question: 'Quelle chanson ressemble le plus à Christian ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 21,
-    question: 'Que reproche le plus Christine à Christian ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 22,
-    question: 'Que reproche le plus Christian à Christine ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 23,
-    question: 'Quel mot décrit le mieux les Cricris ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
   },
   {
     id: 24,
@@ -594,40 +280,6 @@ export const datas: QuestionAnswers[] = [
     ]
   },
   {
-    id: 25,
-    question: 'Où les Cricris devaient-ils faire leur voyage de noce, initialement ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 26,
-    question: 'Si Christine pouvait choisir un super pouvoir, lequel serait-ce ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
     id: 27,
     question: 'Si Christian pouvait choisir un super pouvoir,\nlequel serait-ce ?',
     answers: [
@@ -656,90 +308,5 @@ export const datas: QuestionAnswers[] = [
       'Intégrer un jeu de société, se téléporter, devenir invisible...'
     ],
     nextQuestion: 24
-  },
-  {
-    id: 28,
-    question: 'Selon-vous, combien de temps Christine peut-elle survivre sans bouger sur un canapé ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 29,
-    question: 'Selon vous, combien de temps Christian peut-il survivre sans ordinateur ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 30,
-    question: 'Qu\'aime faire Christine le dimanche matin ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 31,
-    question: 'Qu\'aime faire Christian le dimanche matin ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ],
-  },
-  {
-    id: 32,
-    question: 'Un mot ou une phrase qui vous rappelle une anecdote avec les Cricris ?',
-    answers: [
-      {
-        answer: 'Comédie',
-        percentage: 40
-      },
-      {
-        answer: 'Aventure Fantasy',
-        percentage: 22
-      }
-    ],
-    alternativeAnswers: [
-      'Aventure dramatique'
-    ]
   }
 ]
