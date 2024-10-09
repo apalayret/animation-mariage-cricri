@@ -199,7 +199,7 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Gazelle, panthère, écureuil'
     ],
-    nextQuestion: 8
+    nextQuestion: 11
   },
   {
     id: 7,
@@ -260,7 +260,7 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Pyjama qui couvre le bidon'
     ],
-    nextQuestion: 11
+    nextQuestion: 14
   },
   {
     id: 9,
@@ -326,7 +326,7 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Tous car il cuisine très bien !, une bonne tartine de beurre'
     ],
-    nextQuestion: 14
+    nextQuestion: 8
   },
   {
     id: 12,
@@ -470,7 +470,7 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Betty Boop, Martine, Speedy Gonzales...'
     ],
-    nextQuestion: 24
+    nextQuestion: 27
   },
   {
     id: 18,
@@ -607,8 +607,7 @@ export const datas: QuestionAnswers[] = [
     ],
     alternativeAnswers: [
       'Voyager, faire des projets'
-    ],
-    nextQuestion: 27
+    ]
   },
   {
     id: 25,
@@ -673,7 +672,8 @@ export const datas: QuestionAnswers[] = [
     ],
     alternativeAnswers: [
       'Intégrer un jeu de société, se téléporter, devenir invisible...'
-    ]
+    ],
+    nextQuestion: 24
   },
   {
     id: 28,
