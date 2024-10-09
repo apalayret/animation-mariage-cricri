@@ -39,7 +39,7 @@
   #curlicue-1-1 {
     position: absolute;
     bottom: 50px;
-    right: 0;
+    right: 25px;
 
     img {
       width: 200px;
@@ -60,7 +60,7 @@
 
   #curlicue-2-1 {
     position: absolute;
-    top: 75px;
+    bottom: 75px;
     right: 5px;
     
     img {
@@ -82,7 +82,7 @@
 
   #curlicue-4-2 {
     position: absolute;
-    top: calc(50% - 172px);
+    bottom: calc(50% - 172px);
     left: 5px;
 
     img {
@@ -93,7 +93,7 @@
 
   #curlicue-5-2 {
     position: absolute;
-    top: calc(50% - 121px);
+    bottom: calc(50% - 121px);
     right: 5px;
 
     img {
@@ -115,7 +115,7 @@
 
   #curlicue-7-1 {
     position: absolute;
-    top: calc(50% - 133px);
+    bottom: calc(50% - 133px);
     left: -20px;
 
     img {
@@ -137,7 +137,7 @@
 
   #curlicue-8-1 {
     position: absolute;
-    top: 75px;
+    bottom: 75px;
     right: 0;
 
     img {
@@ -148,7 +148,7 @@
 
   #curlicue-9-1 {
     position: absolute;
-    top: 75px;
+    bottom: 75px;
     right: 0;
 
     img {
