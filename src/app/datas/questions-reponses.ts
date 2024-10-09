@@ -273,7 +273,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 10
   },
   {
     id: 10,
@@ -338,7 +337,6 @@ export const datas: QuestionAnswers[] = [
     alternativeAnswers: [
       'Aventure dramatique'
     ],
-    nextQuestion: 13
   },
   {
     id: 13,
